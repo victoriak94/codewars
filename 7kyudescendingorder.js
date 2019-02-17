@@ -1,5 +1,5 @@
 function descendingOrder(n){
-    let numArray = n.toString().split('').sort().reverse().join('');
-    let descending = Number(numArray);
-    return descending;
+    return parseInt(n.toString().split('').sort().reverse().join(''));
   }
+
+  console.log(descendingOrder(123456789));
